@@ -1,40 +1,44 @@
-# real-estate-data-insights
+# 🏡 Real Estate Data Analytics - King County Housing Analysis
 
 
-# Housing Price Analysis
+> 📊 *Un análisis de precios inmobiliarios en King County, Seattle — combinando visualización de datos, limpieza y modelado predictivo con Python.*
 
-Este repositorio contiene un análisis de datos de precios de viviendas utilizando Python y diversas bibliotecas de análisis y modelado de datos.
+---
 
-## Descripción
-El proyecto explora un conjunto de datos de precios de viviendas y aplica técnicas de análisis exploratorio, visualización y modelos de regresión para predecir precios en función de diferentes variables.
+## 📌 Descripción del Proyecto
 
-## Tecnologías utilizadas
-- Python
+Este proyecto es una exploración y análisis avanzado de datos inmobiliarios de King County, WA, donde se aplican técnicas de ciencia de datos para entender mejor qué factores afectan el precio de una propiedad.
+
+Utilizamos herramientas clave como **pandas**, **seaborn**, **matplotlib** y **scikit-learn** para analizar más de 21 mil registros de viviendas, limpiando datos nulos, visualizando relaciones clave y creando modelos de regresión para predecir precios de venta.
+
+---
+
+## 🎯 Objetivos
+
+- 🔍 Limpiar y preparar datos inmobiliarios reales para su análisis.
+- 📈 Visualizar patrones significativos en los datos (como la vista al agua, tamaño y número de habitaciones).
+- 🧠 Aplicar regresión lineal simple y múltiple para predecir precios de viviendas.
+- 📊 Evaluar y ajustar modelos predictivos usando pipelines de `sklearn`.
+
+---
+
+## 🛠️ Herramientas y Librerías
+
+- Python 3.10+
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
+- Scikit-Learn
+- Jupyter Notebook
 
-## Instalación
-Para ejecutar el proyecto, asegúrate de tener Python instalado y ejecuta los siguientes comandos:
+---
 
-```bash
-pip install pandas matplotlib seaborn scikit-learn
-```
-
-## Uso
-Ejecuta el notebook Jupyter para explorar el análisis y la predicción de precios:
+## 📁 Estructura del Repositorio
 
 ```bash
-jupyter notebook ProyectoCourseraData_Analytic.ipynb
-```
-
-## Datos
-El dataset utilizado en este proyecto se encuentra disponible en la nube y se descarga automáticamente al ejecutar el notebook.
-
-## Contribución
-Si deseas contribuir, por favor abre un issue o un pull request.
-
-## Licencia
-Este proyecto se encuentra bajo la licencia MIT.
-
+.
+├── RealEstate_Data_Analytic.ipynb   # Notebook principal con análisis y modelos
+├── housing.csv                      # Dataset procesado (descargado automáticamente)
+├── README.md                        # Este archivo
+└── requirements.txt                 # (opcional) Librerías necesarias

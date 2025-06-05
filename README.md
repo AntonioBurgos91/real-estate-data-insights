@@ -1,44 +1,82 @@
-# 🏡 Real Estate Data Analytics - King County Housing Analysis
+# 🏡 Real Estate Market Analysis with Machine Learning
 
+**Proyecto de Ciencia de Datos y Aprendizaje Automático aplicado al mercado inmobiliario.**
 
-> 📊 *Un análisis de precios inmobiliarios en King County, Seattle — combinando visualización de datos, limpieza y modelado predictivo con Python.*
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Status](https://img.shields.io/badge/status-En%20Desarrollo-informational)
 
 ---
 
-## 📌 Descripción del Proyecto
+## 📌 Descripción
 
-Este proyecto es una exploración y análisis avanzado de datos inmobiliarios de King County, WA, donde se aplican técnicas de ciencia de datos para entender mejor qué factores afectan el precio de una propiedad.
-
-Utilizamos herramientas clave como **pandas**, **seaborn**, **matplotlib** y **scikit-learn** para analizar más de 21 mil registros de viviendas, limpiando datos nulos, visualizando relaciones clave y creando modelos de regresión para predecir precios de venta.
+Este proyecto tiene como objetivo realizar un **análisis exploratorio, visualización y predicción del precio de propiedades inmobiliarias** utilizando técnicas avanzadas de Machine Learning y herramientas de ciencia de datos. Está estructurado para ser un ejemplo profesional, reproducible y educativo, ideal para uso en portfolios, pruebas técnicas o proyectos empresariales.
 
 ---
 
 ## 🎯 Objetivos
 
-- 🔍 Limpiar y preparar datos inmobiliarios reales para su análisis.
-- 📈 Visualizar patrones significativos en los datos (como la vista al agua, tamaño y número de habitaciones).
-- 🧠 Aplicar regresión lineal simple y múltiple para predecir precios de viviendas.
-- 📊 Evaluar y ajustar modelos predictivos usando pipelines de `sklearn`.
+- Realizar una limpieza exhaustiva del conjunto de datos inmobiliarios.
+- Visualizar tendencias y correlaciones relevantes del mercado.
+- Crear modelos predictivos de precios usando algoritmos de ML.
+- Comparar el rendimiento de diferentes modelos.
+- Evaluar métricas y seleccionar el modelo más preciso.
+- Documentar el flujo completo de trabajo con buenas prácticas.
 
 ---
 
-## 🛠️ Herramientas y Librerías
+## 🛠️ Tecnologías y Librerías
 
-- Python 3.10+
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
-- Jupyter Notebook
+- **Lenguaje**: Python 3.10+
+- **Entorno**: Jupyter Notebook
+- **Librerías de Manipulación de Datos**:
+  - `pandas`
+  - `numpy`
+- **Visualización**:
+  - `matplotlib`
+  - `seaborn`
+- **Modelado Predictivo**:
+  - `scikit-learn`
+- **Evaluación y Métricas**:
+  - `mean_squared_error`, `r2_score`
+- **Extras**:
+  - Gestión profesional de advertencias
+  - Comentarios explicativos en cada celda
 
 ---
 
-## 📁 Estructura del Repositorio
+## 📊 Análisis Exploratorio
 
+Se incluye una fase detallada de **EDA (Exploratory Data Analysis)**:
+- Distribución de precios
+- Comparativas entre variables numéricas y categóricas
+- Detección de outliers
+- Mapa de correlación de variables
+
+---
+
+## 🧠 Modelado Predictivo
+
+Se entrenan y comparan varios modelos, incluyendo:
+
+- Regresión Lineal
+- Árboles de Decisión
+- Random Forest Regressor
+
+📌 **Métricas utilizadas**:
+- RMSE (Root Mean Squared Error)
+- R² (Coeficiente de Determinación)
+
+---
+
+## ✅ Resultados
+
+Tras un proceso iterativo de entrenamiento y validación, se identificó el modelo con mejor capacidad de generalización y menor error de predicción, adecuado para integrarse en pipelines productivos o dashboards interactivos.
+
+---
+
+## 📌 Cómo Usar
+
+1. Clona este repositorio:
 ```bash
-.
-├── RealEstate_Data_Analytic.ipynb   # Notebook principal con análisis y modelos
-├── housing.csv                      # Dataset procesado (descargado automáticamente)
-├── README.md                        # Este archivo
-└── requirements.txt                 # (opcional) Librerías necesarias
+git clone https://github.com/AntonioBurgos91/RealEstate_Data_Analytic.git
